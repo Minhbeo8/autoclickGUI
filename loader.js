@@ -2,7 +2,7 @@
 // @name         Loader — Universal Auto Clicker GUI
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Tự động tải và chạy Universal Auto Clicker GUI từ GitHub
+// @description  ko biết ghi gì
 // @author       Minhbeo8 (hominz)
 // @icon         https://i.postimg.cc/Jhcr8R5L/hominz-png-4.png
 // @match        *://*/*
