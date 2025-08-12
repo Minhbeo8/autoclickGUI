@@ -2,6 +2,7 @@
 // @name         Loader — Universal Auto Clicker GUI
 // @namespace    http://tampermonkey.net/
 // @version      1.0
+// @license      MIT
 // @description  ko biết ghi gì
 // @author       Minhbeo8 (hominz)
 // @icon         https://i.postimg.cc/Jhcr8R5L/hominz-png-4.png
