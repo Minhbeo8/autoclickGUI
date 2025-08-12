@@ -2,6 +2,7 @@
 // @name         Loader — Universal Auto Clicker GUI
 // @namespace    http://tampermonkey.net/
 // @version      1.0
+// @description  Tự động tải và chạy Universal Auto Clicker GUI từ GitHub
 // @author       Minhbeo8 (hominz)
 // @icon         https://i.postimg.cc/Jhcr8R5L/hominz-png-4.png
 // @match        *://*/*
@@ -18,7 +19,6 @@
 
 (function () {
     'use strict';
-
     const sourceUrl = "https://raw.githubusercontent.com/Minhbeo8/autoclickGUI/refs/heads/main/autoclick.js";
 
     GM_xmlhttpRequest({
@@ -34,10 +34,13 @@
                     GM_addStyle, GM_setValue, GM_getValue,
                     GM_deleteValue, GM_listValues, GM_openInTab
                 );
+            } else {
+                console.error("Không thể tải script:", response.status, response.statusText);
             }
         },
         onerror: function (err) {
-            console.error("🚫 Không thể tải script:", err);
+            console.error("Lỗi kết nối khi tải script:", err);
         }
     });
+
 })();
