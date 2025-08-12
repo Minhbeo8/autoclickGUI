@@ -2,6 +2,7 @@
 // @name         Universal Auto Clicker GUI - Floating Bubbles
 // @namespace    http://tampermonkey.net/
 // @version      2.0
+// @license      MIT
 // @description  Visual auto clicker 
 // @author       Minhbeo8(hominz) 
 // @match        *://*/*
